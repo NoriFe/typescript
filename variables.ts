@@ -21,4 +21,13 @@ movie = true; // No Error
 movie = ["Inception", "The Dark Knight"]; // No Error
 movie.toUpperCase(); // No Error
 
+//type intonation
 
+
+const movies = ["Inception", "The Dark Knight", "Interstellar", "Dunkirk", "Tenet"];
+let foundMovie: string;
+for (let movie of movies) {
+    if (movie === "Interstellar") {
+        foundMovie = movie;
+    }
+  }
