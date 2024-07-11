@@ -13,3 +13,12 @@ age += 1; // 31 Can do increment operation
 
 let movieName = "Inception"; // Type is inferred as string
 movieName = 10; // Error: Type 'number' is not assignable to type 'string'.
+
+// any type - can be any type
+let movie: any = "Inception";
+movie = 10; // No Error
+movie = true; // No Error
+movie = ["Inception", "The Dark Knight"]; // No Error
+movie.toUpperCase(); // No Error
+
+
