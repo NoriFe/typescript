@@ -37,4 +37,8 @@ for (let movie of movies) {
 
   function add(a: number, b: number): number {
     return a + b;
-  }  
+  }
+
+const something = (person: string, age: number, isFunny: boolean)  => {};
+
+something("John", 30, true);
