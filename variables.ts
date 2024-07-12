@@ -64,3 +64,10 @@ for (let movie of movies) {
   colors.map(color => {
     color.toUpperCase();
   })
+
+  //Void
+
+  function printTwice(msg: string): void{
+    console.log(msg);
+    console.log(msg);
+  }
