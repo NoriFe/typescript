@@ -42,3 +42,12 @@ for (let movie of movies) {
 const something = (person: string, age: number, isFunny: boolean)  => {};
 
 something("John", 30, true);
+
+
+function greet(person: string = "stranger") {
+  return "Hello, " + person;
+}
+
+greet(); // Hello, stranger
+greet("John"); // Hello, John
+
