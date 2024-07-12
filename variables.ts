@@ -35,19 +35,26 @@ for (let movie of movies) {
 
   //functions
 
+
+  const something = (person: string, age: number, isFunny: boolean)  => {};
+
+  something("John", 30, true);
+
+
+  function greet(person: string = "stranger") {
+    return "Hello, " + person;
+  }
+
+  greet(); // Hello, stranger
+  greet("John"); // Hello, John
+
+  function rando(num: number){
+    if(Math.random() < 0.5){
+      return num.toString();
+    }
+    return num;
+  }
+
   function add(a: number, b: number): number {
     return a + b;
   }
-
-const something = (person: string, age: number, isFunny: boolean)  => {};
-
-something("John", 30, true);
-
-
-function greet(person: string = "stranger") {
-  return "Hello, " + person;
-}
-
-greet(); // Hello, stranger
-greet("John"); // Hello, John
-
