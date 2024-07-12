@@ -31,3 +31,10 @@ for (let movie of movies) {
         foundMovie = movie;
     }
   }
+
+
+  //functions
+
+  function add(a: number, b: number): number {
+    return a + b;
+  }  
