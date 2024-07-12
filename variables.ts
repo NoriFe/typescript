@@ -71,3 +71,15 @@ for (let movie of movies) {
     console.log(msg);
     console.log(msg);
   }
+
+  //never
+
+  function throwError(msg: string): never {
+    throw new Error(msg);
+  }  // This function never returns a value
+
+  function gameLoop(): never {
+    while (true) {
+      console.log("Game is running...");
+    }
+  }  // This function never returns a value
